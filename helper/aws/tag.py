@@ -857,7 +857,7 @@ class AwsTag:
             )
         elif self.Service == 'directconnect':
             response = Client.describe_tags (
-                ResourceArn = [
+                resourceArns = [
                     ResourceId
 		]
             )
